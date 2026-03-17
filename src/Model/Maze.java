@@ -30,7 +30,7 @@ public class Maze {
     }
 
     private Maze(int width, int height, boolean notUsed)  {
-        // For static factory method:
+        // For static factory method.
         this.width = width;
         this.height = height;
         board = new CellState[height][width];
