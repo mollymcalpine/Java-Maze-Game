@@ -43,3 +43,5 @@ Controls:
 - c: set goal to 1 cheese (cheat)
 
 To run using an IDE like IntelliJ or Eclipse, just run Main.Java.
+
+Developed as part of a course project at SFU.
