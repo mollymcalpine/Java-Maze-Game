@@ -29,17 +29,17 @@ The project follows a clean Model / UI separation:
 
 Project Structure:
 MazeGame/
-├── Main.java               # Entry point
+├── Main.java                  # Entry point
 ├── Model/
-|   ├── Maze.java           # Procedural generation + constraint validation
-|   ├── MazeGame.java       # Game state + public API (facade)
-|   ├── Cat.java            # Cat movement
-|   ├── CellLocation.java   # Immutable (x, y) coordinate
-|   ├── CellState.java      # Immutabe cell data (wall, visibility)
-|   ├── MoveDirection.java  # Movement direction enum with inverse lookup
-|   ├── PathFinder.java     # Flood-fill connectivity checker
-└── TextUI/   
-    └── MazeTextUI.java     # Terminal UI and input handling
+│   ├── Maze.java              # Procedural generation + constraint validation
+│   ├── MazeGame.java          # Game state + public API (facade)
+│   ├── Cat.java               # Cat AI movement
+│   ├── CellLocation.java      # Immutable (x, y) coordinate
+│   ├── CellState.java         # Immutable cell data (wall, visibility)
+│   ├── MoveDirection.java     # Movement direction enum with inverse lookup
+│   └── PathFinder.java        # Flood-fill connectivity checker
+└── TextUI/
+    └── MazeTextUI.java        # Terminal UI and input handling
 
 Gameplay:
 - You are @ - a mouse navigating a maze.
